@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: aliceblue;
+      }
+      .attribution a {
+        color: hsl(0, 0%, 86%);
+      }
+    </style>
+  </head>
+  <body class="bg-[#090b1a] px-6">
+    <div class="flex h-screen">
+      <main
+        class="
+          m-auto
+          text-white
+          font-inter
+          text-center
+          max-w-[375px]
+          bg-[#1b1938]
+          rounded-xl
+          md:max-w-[1200px] md:flex md:flex-row-reverse md:text-left
+        "
+      >
+        <div
+          class="
+            bg-[#aa5cdb]
+            rounded-t-xl
+            md:flex-1 md:rounded-r-xl md:rounded-l-none
+          "
+        >
+          <img
+            class="
+              object-cover
+              opacity-40
+              rounded-t-xl
+              w-full
+              md:rounded-l-none md:rounded-r-xl
+            "
+            src="images/image-header-mobile.jpg"
+            alt="Main photo"
+          />
+        </div>
+        <div class="md:p-10 md:flex-1">
+          <div class="text-3xl my-6 px-9 font-lexend-deca">
+            Get
+            <span class="text-[#aa5cdb]">insights</span> that help your business
+            grow.
+          </div>
+          <p class="mt-4 mb-8 text-neutral-400 px-10">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="md:flex md:justify-between md:px-10">
+            <article>
+              <div class="text-2xl font-medium">10k+</div>
+              <p class="text-neutral-400 uppercase pb-6">companies</p>
+            </article>
+            <article>
+              <div class="text-2xl font-medium">314</div>
+              <p class="text-neutral-400 uppercase pb-6">templates</p>
+            </article>
+            <article>
+              <div class="text-2xl font-medium">12m+</div>
+              <p class="text-neutral-400 uppercase pb-6">queries</p>
+            </article>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">ob2code</a>.
+    </div> -->
+  </body>
+</html>
